@@ -1,0 +1,11 @@
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),url('/assets/images/44.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    color: white;
+  }

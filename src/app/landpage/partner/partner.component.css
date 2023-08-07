@@ -1,0 +1,164 @@
+.logo{
+    /* border-radius:50px; */
+    height: 100px;
+    margin-left: 4em;
+    
+}
+
+@media only screen and  (max-width: 677px) {
+      .logo {
+             height: 50px;
+      }
+      body{
+        font-size: small;
+      }
+
+    }
+     @media only screen  and (max-width: 1024px) {
+      .logo {
+             height: 50px;
+      }
+       body{
+        font-size: small;
+      }
+
+    }
+
+    #navbar{
+        font-family: Verdana;
+         font-size: 20px;
+    }
+
+     #contact{
+    background-color: #001d47;
+
+ }
+
+ #imgg{
+  background-image: url("/assets/images/branch.PNG");
+    background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    height: 70vh;
+    width: 100%;
+ }
+
+ #cccc{
+        font-size: 3em;
+        font-weight: bolder;
+        color: white;
+        margin-left: 3em;
+
+    }
+
+ #help{
+    font-weight: bolder;
+    color: grey;
+    margin-left: 6em;
+     font-size: 1.2em;
+ }
+
+
+   
+
+
+
+
+#footer{
+        background-color: #001d47;
+        height: 550px;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        margin-top: -2em;
+    }
+
+
+     #footer .icon ul{ 
+        text-align: right;
+        margin: 0;
+        padding: 0;
+    }
+
+     #footer .icon li i{
+          color: white; 
+          font-size: 1em; 
+          border: 3px solid red;
+           border-style: none;
+           border-radius: 60px;
+            background-color: #001d47; 
+     }
+
+
+    #footer .icon li {
+        display: inline-block;
+        font-size: 20px;
+        padding: 5px;
+        margin-top: 30px;
+    }
+
+    #foot{
+        border-style: none;
+         list-style-type: none;
+        text-decoration: none;
+    }
+
+    #foot a{
+        color: grey;
+    }
+
+    #foot li {
+        list-style-type: none;
+        text-decoration: none;
+        margin: 1em;
+    }
+
+     @media only screen  and (max-width: 677px)   {
+       #contact{
+            width: 100%;
+            padding: 1em;
+            text-align: center;
+    }
+    /* #imgg{
+        background-image: url("assets/images/branch.PNG");
+    background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    height: 0vh;
+    width: 100%;
+    } */
+    /* #imagee{
+       
+    } */
+}
+
+
+     @media only screen  and (max-width: 1024px) {
+     #footer{
+         height: 110%;
+    }
+    #contact{
+      width: 100%;
+
+    }
+     #foot{
+        font-size: 15px;
+     }
+     #imgg{
+      width: 100%;
+     }
+    }
+
+
+
+    #last{
+        text-align:  center;
+        color: grey;
+        font-size: 12px;
+    }

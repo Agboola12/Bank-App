@@ -1,0 +1,97 @@
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2 " style="color: #001d47" >
+    <img src="assets/images/logo.png" routerLink="/" class="logo" alt="BankingApp">
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav  ">
+        <li class="nav-item">
+            <a class="nav-link h2 text-light"  href="#" routerLink="/"><b>Jahnus Bank</b></a>
+          </li>
+    </ul>
+    <ul class="navbar-nav list-line">  
+      <li class="nav-item active list-line-item mr-5 ">
+         <a href="#" class="nav-link active text-light"  routerLink="all-acct" >Account</a>
+      </li>
+      <li class="nav-item active list-line-item mr-5 ">
+         <a href="#" class="nav-link active text-light"  routerLink="/new-acct">Add New Account</a>
+      </li>
+      <li class="nav-item active list-line-item mr-5 ">
+          <a  href="#" class="nav-link active text-light" routerLink="/feed-back" >Feedback</a>
+         
+      </li>
+    </ul>
+    <ul class="navbar-nav list-line ml-auto">
+       <li class="nav-item active list-line-item mr-5 ">
+         <a href="#" class="nav-link active text-light"><button class="btn btn-outline-success">Welcome Manager</button></a>
+      </li>
+         <li class="nav-item active list-line-item mr-5 ">
+         <a routerLink="/user-home" class="nav-link active text-light"><i class="fa fa-logout">logout</i></a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+</div>
+
+<div class="card bg-dark mx-auto" style="color: white ;margin-top:3em; width:80%">
+    <div class="card-block shadow-lg p-4 m-4" id="print">
+                <h2 class="text-center"><b>All Account</b></h2>  <br/>                           
+    <div class="col-md-12">
+           <table class="table table-hover w-100" style="color:white;font-size: 18px" id="show">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Holder Name</th>
+                    <th>Account No</th>
+                    <th>Branch Name</th>
+                    <th>Current Balance</th>
+                    <th>Account Type</th>
+                    <th>Contact</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>3125643784</td>
+                    <td>First Bank</td>
+                    <td>$55,000</td>
+                    <td>Saving</td>
+                    <td>08070684264</td>
+                    <td><button class="btn btn-success">View</button></td>
+                    <td><button class="btn btn-primary">Send Notice</button></td>
+                    <td><button class="btn btn-danger">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>John Doe</td>
+                    <td>0123642784</td>
+                    <td>Diamond Bank</td>
+                    <td>$9,000</td>
+                    <td>Current</td>
+                    <td>08070404060</td>
+                    <td><button class="btn btn-success">View</button></td>
+                    <td><button class="btn btn-primary">Send Notice</button></td>
+                    <td><button class="btn btn-danger">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>John Doe</td>
+                    <td>3325656784</td>
+                    <td>Gt Bank</td>
+                    <td>$4,000</td>
+                    <td>Saving</td>
+                    <td>08070684264</td>
+                    <td><button class="btn btn-success">View</button></td>
+                    <td><button class="btn btn-primary">Send Notice</button></td>
+                    <td><button class="btn btn-danger">Delete</button></td>
+                </tr>
+                
+                </tbody> 
+</table>
+    </div>
+    </div>
+ </div>
