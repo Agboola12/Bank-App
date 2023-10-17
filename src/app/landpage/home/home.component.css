@@ -6,18 +6,13 @@ body{
 #Login{
    min-width: 200px; 
 }
- /* .jumbotron{
-    width: 500px;
- } */
-
 
 .logo{
-    /* border-radius:50px; */
     height: 100px;
     margin-left: 4em;    
 }
 
- @media only screen and  (max-width: 677px) {
+ @media  (max-width: 677px) {
       .logo {
              height: 50px;
       }
@@ -26,7 +21,7 @@ body{
       }
 
     }
-     @media only screen  and (max-width: 1024px) {
+     @media  (max-width: 1024px) {
       .logo {
              height: 50px;
       }
@@ -37,7 +32,6 @@ body{
     }
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 9)),url("/assets/images/9.jpg");
-    /* background: linear-gradient (rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),url("/assets/images/9.jpg"); */
     background-size: cover;
     background-attachment: fixed;
     -moz-background-size: cover;
@@ -88,7 +82,7 @@ header {
         margin-top: 80px;
     }
 
-     @media only screen and  (max-width: 677px) {
+     @media (max-width: 677px) {
       #service {
              height: 100%;
       }
@@ -98,11 +92,10 @@ header {
        }
 
     }
-     @media only screen  and (max-width: 1024px) {
+     @media (max-width: 1024px) {
       #service {
              height: 100%;
       }
-
     }
 
     .promise{
@@ -112,7 +105,7 @@ header {
     }
 
     #purpose{
-        margin-left: 9em;
+        margin-left: 14em;
         padding:2em;
          position: relative;
          z-index: 1;
@@ -125,7 +118,6 @@ header {
         font-size: 3em;
         font-weight: bolder;
         color: #001d47;
-        /*margin-bottom: 20px;*/
     }
 
     #prom{
@@ -134,10 +126,10 @@ header {
         background-color: #001d47;
         width: 30%;
         top: 4em;
-        left: 700px;
+        left: 800px;
     }
 
-     @media only screen  and (max-width: 677px) {
+     @media  (max-width: 677px) {
        #prom{
         visibility: hidden;
         position: fixed;
@@ -149,7 +141,7 @@ header {
     
 }
 
- @media only screen  and (max-width: 1024px) {
+ @media  (max-width: 1024px) {
      #prom{
         visibility: hidden;
         position: fixed;
@@ -159,23 +151,18 @@ header {
     #image{
         z-index: 2;
         position: absolute;
-        /*width: 40%;*/
-        top: 1px;
-        left: 600px;   
+        top: 3em;
+        left: 800px;   
     }
 
     #vision{
-        height: 400px;
-        padding:1em;
-        position: relative;
-        z-index: 1;
+        margin-left: 9em;
+        padding:2em;
+         position: relative;
+         z-index: 1;
         color: #001d47;
-        width:70%;
-        background-color: white;   
-       /* float: center;
-        margin: auto;
-        display: grid;
-        align-items: center;*/
+        width:60%;
+        background-color: white;
     }
     
 
@@ -188,8 +175,8 @@ header {
         height: 100%;
         width: 100%;
         margin-left: 0;
-         margin: auto;
-        display: grid;
+         /* margin: auto; */
+        /* display: grid; */
         align-items: center;
      }
 }
