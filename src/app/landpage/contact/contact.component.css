@@ -48,14 +48,14 @@
         font-size: 3em;
         font-weight: bolder;
         color: white;
-        margin-left: 3em;
+        /* margin-left: 3em; */
 
     }
 
  #help{
  	font-weight: bolder;
  	color: grey;
- 	margin-left: 6em;
+ 	/* margin-left: 6em; */
  	 font-size: 1.5em;
  }   
 
@@ -123,10 +123,15 @@
       width: 100%;
      }
       #imgg{
-        height: 0vh;
+        height: 0;
+        /* visibility: hidden; */
       }
       #contact{
-        text-align: center;
+        /* text-align: center; */
+        /* margin-right: -900em; */
+      }
+      #cccc{
+        /* text-align: center; */
       }
 }
 
@@ -145,6 +150,7 @@
       width: 100%;
      }
     }
+ 
 
 
 
