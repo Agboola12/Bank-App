@@ -52,48 +52,30 @@
 		<h1 style="color: grey; text-align: center;">Sponsorships/ Partnerships/ Events</h1> <br/> <br/>
 		
 			<div class="row" >
-			  <div class="col-md-3 mb-2 ">
+			  <div class="col-md-3 mb-3 " *ngFor="let item of [0,0,0,0]; let i=index">
 			    <div class="thumbnail">
                     <!-- <img src="assets/images/his.PNG" class="card-img-top" alt="..." /> -->
-			        <img src="assets/images/ge.jpg" alt="Lights" style="width:100%">
+			        <img src="assets/images/{{i==1 ? 'ge' :i==2?'manu':i==3?'loo':'manu'}}.{{i==3?'png':'jpg'}}" alt="Lights" style="width:100%">
 			    </div>
 			  </div>
 
-			  <div class="col-md-3 mb-2 ">
-			    <div class="thumbnail">
-			        <img src="assets/images/manu.jpg" alt="Nature" style="width:100%">
-			    </div>
-			  </div>
-
-			  <div class="col-md-3 mb-2">
-			    <div class="thumbnail">
-			        <img src="assets/images/loo.png" alt="Fjords" style="width:100%">
-			    </div>
-			  </div>
-
-			  <div class="col-md-3 ">
-			    <div class="thumbnail">
-			        <img src="assets/images/n.jpg" alt="Nature" style="width:100%">
-			    </div>
-			  </div>
-			</div>
 
 		<br/>
 
-			<div class="row" float="center">
+			<div class="row mb-5" float="center">
 			  <div class="col-md-3 ">
 			    <div class="thumbnail">
-			        <img src="assets/images/lo.jpg" alt="Lights" style="width:100%">
+			        <img src="assets/images/loo.png" alt="Lights" style="width:100%">
 			    </div>
 			  </div>
 
-			  <div class="col-md-3 mb-2">
+			  <div class="col-md-3 mb-3">
 			    <div class="thumbnail">
-			        <img src="assets/images/n.jpg" alt="Nature" style="width:100%">
+			        <img src="assets/images/ge.jpg" alt="Nature" style="width:100%">
 			    </div>
 			  </div>
 
-			  <div class="col-md-3 mb-2">
+			  <div class="col-md-3 mb-3">
 			    <div class="thumbnail">
 			        <img src="assets/images/ge.jpg" alt="Fjords" style="width:100%">
 			    </div>
