@@ -124,19 +124,19 @@ header {
         margin: 1em;
     }
 
-     @media only screen  and (max-width: 677px)   {
-       #contact{
+     @media  (max-width: 677px)   {
+       /* #contact{
             width: 100%;
             padding: 1em;
             text-align: center;
-    }
+    } */
     #imgg{
     height: 0vh;
     }
 }
 
 
-     @media only screen  and (max-width: 1024px) {
+     @media  (max-width: 1024px) {
      #footer{
          height: 110%;
     }
