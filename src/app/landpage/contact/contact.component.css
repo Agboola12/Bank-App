@@ -112,7 +112,7 @@
         margin: 1em;
     }
 
-     @media only screen  and (max-width: 677px)   {
+     @media  (max-width: 677px)   {
        #footer{
          height: 100%;
     }
@@ -123,15 +123,19 @@
       width: 100%;
      }
       #imgg{
-        height: 100vh;
+        height: 0vh;
+      }
+      #contact{
+        text-align: center;
       }
 }
 
- @media only screen  and (max-width: 1024px) {
+ @media  (max-width: 1024px) {
      #footer{
          height: 110%;
     }
     #contact{
+      text-align: center;
       width: 100%;
     }
      #foot{
@@ -144,13 +148,17 @@
 
 
 
- @media only screen  and (max-width: 1024px) {
+ @media (max-width: 1024px) {
      #footer{
          height: 100%;
     }
      #foot{
         font-size: 15px;
      }
+     #contact{
+      text-align: center;
+      /* width: 100%; */
+    }
     
     }
 
