@@ -4,7 +4,7 @@
     margin-left: 4em;
     
 }
-@media only screen and  (max-width: 677px) {
+@media  (max-width: 677px) {
       .logo {
              height: 50px;
       }
@@ -13,7 +13,7 @@
       }
 
     }
-     @media only screen  and (max-width: 1024px) {
+     @media  (max-width: 1024px) {
       .logo {
              height: 50px;
       }
@@ -49,14 +49,12 @@
         font-size: 3em;
         font-weight: bolder;
         color: white;
-        margin-left: 3em;
 
     }
 
  #help{
     font-weight: bolder;
     color: grey;
-    margin-left: 6em;
      font-size: 1.2em;
  }
 
@@ -116,7 +114,7 @@
         margin: 1em;
     }
 
-    @media only screen  and (max-width: 677px)   {
+    @media  (max-width: 677px)   {
        #contact{
             width: 100%;
             padding: 1em;
@@ -127,7 +125,7 @@
 }
 
 
-     @media only screen  and (max-width: 1024px) {
+     @media  (max-width: 1024px) {
      #footer{
          height: 110%;
     }
