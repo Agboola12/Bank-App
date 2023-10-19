@@ -99,18 +99,19 @@ header {
     }
 
     .promise{
-        font-size: 2em;
+        font-size: 1em;
         font-weight: bolder;
         
     }
 
     #purpose{
-        margin-left: 14em;
+        margin-left: 6em;
         padding:2em;
          position: relative;
          z-index: 1;
         color: #001d47;
-        width:60%;
+        margin-bottom: 2em;
+        /* width:60%; */
         background-color: white;
     }
 
@@ -126,7 +127,7 @@ header {
         background-color: #001d47;
         width: 30%;
         top: 4em;
-        left: 800px;
+        left: 650px;
     }
 
      @media  (max-width: 677px) {
@@ -136,7 +137,7 @@ header {
     }
      #purpose{
         width: 100%;
-        margin-left: 0;
+        /* margin-left: 0; */
      }
     
 }
@@ -152,32 +153,36 @@ header {
         z-index: 2;
         position: absolute;
         top: 3em;
-        left: 800px;   
+        left: 650px;   
     }
 
     #vision{
-        margin-left: 9em;
+        margin-left: 6em;
         padding:2em;
          position: relative;
          z-index: 1;
         color: #001d47;
-        width:60%;
+        /* width:60%; */
+        margin-bottom: 2em;
         background-color: white;
     }
     
 
-     @media only screen  and (max-width: 677px) {
+     @media  (max-width: 677px) {
        #image{
         visibility: hidden;
+        height: 0;
+        width: 0;
         position: fixed;
     }
      #vision{
         height: 100%;
         width: 100%;
-        margin-left: 0;
+        /* margin-left: 0; */
          /* margin: auto; */
         /* display: grid; */
         align-items: center;
+        /* margin: 4em; */
      }
 }
 
