@@ -156,6 +156,9 @@ header {
         visibility: hidden;
         position: fixed;
     }
+    #image{
+    }
+
     }
 
     #image{
@@ -166,12 +169,10 @@ header {
     }
 
     #vision{
-        /* margin-left: 2em; */
         padding:2em;
          position: relative;
          z-index: 1;
         color: #001d47;
-        /* width:60%; */
         margin-bottom: 2em;
         background-color: white;
     }
@@ -180,15 +181,12 @@ header {
      @media  (max-width: 677px) {
        #image{
         visibility: hidden;
-        /* height: 0; */
-        /* width: 0; */
         position: fixed;
     }
      #vision{
         height: 100%;
         width: 100%;
         align-items: center;
-        /* margin: 4em; */
      }
 }
 
