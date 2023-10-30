@@ -31,7 +31,7 @@ body{
 
     }
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 9)),url("/assets/images/9.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 9)),url("/assets/images/home.png");
     background-size: cover;
     background-attachment: fixed;
     -moz-background-size: cover;
