@@ -1,5 +1,4 @@
 .logo{
-    /* border-radius:50px; */
     height: 100px;
     margin-left: 4em;
     
@@ -23,17 +22,7 @@
       }
 
     }
-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),url("/assets/images/9.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    overflow: hidden;
-    height: 82vh;
-    width: 100%;
-    }
+
 
     #navbar{
         font-family: Verdana;
@@ -45,15 +34,15 @@ header {
  }
 
  #imgg{
-  background-image: url("/assets/images/branch.PNG");
+  background-image: url("/assets/images/think.png");
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     overflow: hidden;
     height: 70vh;
-    width: 100%;
+    /* width: 100%; */
  }
 
  #cccc{
@@ -96,10 +85,7 @@ header {
             background-color: #001d47; 
      }
 
-      /*#footer li a{
-        text-decoration: none;
-        color: white;   
-      }*/
+      
 
     #footer .icon li {
         display: inline-block;
@@ -124,16 +110,7 @@ header {
         margin: 1em;
     }
 
-     @media  (max-width: 677px)   {
-       /* #contact{
-            width: 100%;
-            padding: 1em;
-            text-align: center;
-    } */
-    #imgg{
-    height: 0vh;
-    }
-}
+     
 
 
      @media  (max-width: 1024px) {

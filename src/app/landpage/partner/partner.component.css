@@ -25,7 +25,7 @@
         font-size: small;
       }
       #imgg{
-        height: 0vh;
+        /* height: 0vh; */
  }
 
     }
@@ -41,15 +41,15 @@
  }
 
  #imgg{
-  background-image: url("/assets/images/branch.PNG");
+  background-image: url("/assets/images/team.png");
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     overflow: hidden;
     height: 70vh;
-    width: 100%;
+    /* width: 100%; */
  }
 
  #cccc{
@@ -157,7 +157,7 @@
      }
      #imgg{
       width: 100%;
-      height: 0vh;
+      /* height: 0vh; */
      }
     }
 
