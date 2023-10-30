@@ -104,7 +104,7 @@ header {
     }
 
     #purpose{
-        margin-left: 6em;
+        /* margin-left: 6em; */
         padding:2em;
          position: relative;
          z-index: 1;
@@ -131,6 +131,10 @@ header {
 
      @media  (max-width: 677px) {
        #prom{
+        visibility: hidden;
+        position: fixed;
+    }
+       #image{
         visibility: hidden;
         position: fixed;
     }
@@ -162,7 +166,7 @@ header {
     }
 
     #vision{
-        margin-left: 6em;
+        /* margin-left: 2em; */
         padding:2em;
          position: relative;
          z-index: 1;
@@ -176,16 +180,13 @@ header {
      @media  (max-width: 677px) {
        #image{
         visibility: hidden;
-        height: 0;
-        width: 0;
+        /* height: 0; */
+        /* width: 0; */
         position: fixed;
     }
      #vision{
         height: 100%;
         width: 100%;
-        /* margin-left: 0; */
-         /* margin: auto; */
-        /* display: grid; */
         align-items: center;
         /* margin: 4em; */
      }
