@@ -1,5 +1,4 @@
 .logo{
-    /* border-radius:50px; */
     height: 100px;
     margin-left: 4em;
     
@@ -20,7 +19,6 @@
        body{
         font-size: small;
       }
-
     }
 
     #navbar{
@@ -28,29 +26,6 @@
          font-size: 20px;
     }
 
-    #contact{
-    background-color: #001d47;
-
- }
-
- #imgg{
-  background-image: url("/assets/images/branch.PNG");
-    background-size: cover;
-    background-attachment: fixed;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    overflow: hidden;
-    height: 70vh;
-    width: 100%;
- }
-
- #cccc{
-        font-size: 3em;
-        font-weight: bolder;
-        color: white;
-
-    }
 
  #help{
     font-weight: bolder;
@@ -86,10 +61,7 @@
             background-color: #001d47; 
      }
 
-      /*#footer li a{
-        text-decoration: none;
-        color: white;   
-      }*/
+    
 
     #footer .icon li {
         display: inline-block;
@@ -120,9 +92,7 @@
             padding: 1em;
             text-align: center;
     }
-    #imgg{
-       height: 0vh;
-}
+    
 
 
      @media  (max-width: 1024px) {
@@ -136,17 +106,51 @@
      #foot{
         font-size: 15px;
      }
-     #imgg{
-      width: 100%;
-     }
+     
     }
-
 }
-
  
-
     #last{
         text-align:  center;
         color: grey;
         font-size: 12px;
+    }
+
+
+    .head{
+      position: relative;
+      display: inline-block;
+    }
+
+    .head::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: hwb(208 1% 90% / 0.600); 
+      /* background-color: #8CCEED;  */
+    }
+
+    .text{
+      text-align: center;
+      margin-top: 4em;
+      font-size: 3em;
+      font-weight: bolder;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #img{
+      display: block;
+      background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+      /* max-width: 100%; */
     }
