@@ -157,6 +157,13 @@ header {
         position: fixed;
     }
     #image{
+        visibility: hidden;
+        position: fixed;
+    }
+    #center{
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 
     }
