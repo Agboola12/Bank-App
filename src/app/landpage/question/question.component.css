@@ -36,7 +36,6 @@
  #imgg{
   background-image: url("/assets/images/think.png");
     background-size: cover;
-    /* background-attachment: fixed; */
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
