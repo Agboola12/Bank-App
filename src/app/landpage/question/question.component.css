@@ -29,7 +29,7 @@
          font-size: 20px;
     }
 
-    #contact{
+    /* #contact{
     background-color: #001d47;
  }
 
@@ -41,10 +41,9 @@
     -o-background-size: cover;
     overflow: hidden;
     height: 70vh;
-    /* width: 100%; */
- }
+ } */
 
- #cccc{
+ /* #cccc{
         font-size: 3em;
         font-weight: bolder;
         color: white;
@@ -57,7 +56,7 @@
     color: grey;
     margin-left: 6em;
      font-size: 1.2em;
- }
+ } */
 
     #footer{
         background-color: #001d47;
@@ -116,16 +115,16 @@
      #footer{
          height: 110%;
     }
-    #contact{
+    /* #contact{
       width: 100%;
 
-    }
+    } */
      #foot{
         font-size: 15px;
      }
-     #imgg{
+     /* #imgg{
       width: 100%;
-     }
+     } */
     }
 
 
@@ -190,18 +189,51 @@ input[type=submit]:hover {
     margin-top: 6px;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
 }
+
+.head{
+    position: relative;
+    display: inline-block;
+  }
+
+  .head::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hwb(208 1% 90% / 0.600); 
+  }
+
+  .text{
+    text-align: center;
+    margin-top: 4em;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } 
+
+   #img{
+    display: block;
+    background-size: cover;
+  background-attachment: fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  }
 

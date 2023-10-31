@@ -24,9 +24,9 @@
        body{
         font-size: small;
       }
-      #imgg{
+      /* #imgg{ */
         /* height: 0vh; */
- }
+ /* } */
 
     }
 
@@ -35,12 +35,12 @@
          font-size: 20px;
     }
 
-     #contact{
+     /* #contact{
     background-color: #001d47;
 
- }
+ } */
 
- #imgg{
+ /* #imgg{
   background-image: url("/assets/images/team.png");
     background-size: cover;
     -moz-background-size: cover;
@@ -48,10 +48,9 @@
     -o-background-size: cover;
     overflow: hidden;
     height: 70vh;
-    /* width: 100%; */
- }
+ } */
 
- #cccc{
+ /* #cccc{
         font-size: 3em;
         font-weight: bolder;
         color: white;
@@ -63,7 +62,7 @@
     color: grey;
      font-size: 1.2em;
      text-align: center;
- }
+ } */
 
 
    
@@ -120,12 +119,12 @@
         margin: 1em;
     }
 
-     @media only screen  and (max-width: 677px)   {
-       #contact{
+     /* @media only screen  and (max-width: 677px)   { */
+       /* #contact{
             width: 100%;
             padding: 1em;
             text-align: center;
-    }
+    } */
     /* #imgg{
         background-image: url("assets/images/branch.PNG");
     background-size: cover;
@@ -140,24 +139,24 @@
     /* #imagee{
        
     } */
-}
+/* } */
 
 
      @media only screen  and (max-width: 1024px) {
      #footer{
          height: 110%;
     }
-    #contact{
+    /* #contact{
       width: 100%;
 
-    }
+    } */
      #foot{
         font-size: 15px;
      }
-     #imgg{
-      width: 100%;
+     /* #imgg{ */
+      /* width: 100%; */
       /* height: 0vh; */
-     }
+     /* } */
     }
 
 
@@ -167,3 +166,38 @@
         color: grey;
         font-size: 12px;
     }
+
+    .head{
+        position: relative;
+        display: inline-block;
+      }
+  
+      .head::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: hwb(208 1% 90% / 0.600); 
+      }
+  
+      .text{
+        text-align: center;
+        margin-top: 4em;
+        font-size: 3em;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      } 
+  
+       #img{
+        display: block;
+        background-size: cover;
+      background-attachment: fixed;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      overflow: hidden;
+      width: 100%;
+      } 
