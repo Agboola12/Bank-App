@@ -16,7 +16,7 @@ import { UserRegisterComponent } from './user/user-register/user-register.compon
 import { UserTransferComponent } from './user/user-transfer/user-transfer.component';
 
 const routes: Routes = [
-  {path:'', redirectTo:"/home", pathMatch:"full"},
+  {path:'', redirectTo:"/home"},
   {path:"home", component:HomeComponent},
   {path:"contact", component:ContactComponent},
   {path:"findabranch", component:FindabranchComponent},
